@@ -1,0 +1,65 @@
+﻿  <local:MyCard Title="竹芙芙MC服务器简介">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="16"
+                   Text="竹芙芙是MC1.19.2版本下的Forge端生存服务器，包含了科技、工业、养老、休闲、冒险等诸多元素。相信其能带给喜欢生存的不同玩家独属于自己的一份快乐。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="竹芙芙MC服务器版本详细说明">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="16"
+                   Text="Minecraft Version:1.19.2" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="16"
+                   Text="Forge Version:43.2.0" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="16"
+                   Text="Server Version:1.0.0" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="16"
+                   Text="QQ Group:857956333" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="竹芙芙MC服务器更新公告" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" TextWrapping="0" FontSize="18"  HorizontalAlignment="Center"
+                   Text="-" />
+    </StackPanel>
+</local:MyCard>
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ 
+Image（图片）：
+ - Source：要显示的图片的网址
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ 
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ 
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->
